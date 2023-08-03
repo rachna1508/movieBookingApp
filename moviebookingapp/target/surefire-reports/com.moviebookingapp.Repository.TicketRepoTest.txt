@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.moviebookingapp.Repository.TicketRepoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.06 s <<< FAILURE! - in com.moviebookingapp.Repository.TicketRepoTest
+findByMovieNameTest  Time elapsed: 0.048 s  <<< ERROR!
+org.springframework.data.mapping.MappingException: Invalid path reference movie.key.movieName! Associations can only be pointed to directly or via their id property!
+	at com.moviebookingapp.Repository.TicketRepoTest.findByMovieNameTest(TicketRepoTest.java:45)
+

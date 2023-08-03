@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.moviebookingapp.controller.TicketControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in com.moviebookingapp.controller.TicketControllerTest
+bookTicketTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.moviebookingapp.kafka.Producer.sendMessage(String)" because "this.producer" is null
+	at com.moviebookingapp.controller.TicketControllerTest.bookTicketTest(TicketControllerTest.java:45)
+
